@@ -18,5 +18,5 @@ GO
 
 EXEC dbo.uspDueToday
 @BranchName = 'Sharpstown Library',
-@DueDate = '7-10-17'
+@DueDate = '6-30-17'
 

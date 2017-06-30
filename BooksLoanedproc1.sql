@@ -10,3 +10,5 @@ FROM tbl_book_loans a
 GROUP BY b.Branchname
 
 GO
+
+EXEC dbo.uspLibraryLoans;

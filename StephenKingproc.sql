@@ -1,7 +1,7 @@
 USE [db.libraryms1]
 
-CREATE PROCEDURE dbo.uspStephenKing
 AS
+CREATE PROCEDURE dbo.uspStephenKing
 SELECT b.Title, c.No_Of_Copies
 	FROM tbl_book_authors a
 	INNER JOIN tbl_book b
@@ -15,4 +15,4 @@ AND BranchName = 'Central Library'
 
 GO	
 
-EXEC dbo.uspStephenKing
+EXEC dbo.uspStephenKing;

@@ -21,7 +21,7 @@ INSERT INTO tbl_book
 	('0018', 'Caring for the Dying','Conari Press'),
 	('0019', 'Awake at the Bedside', 'Widsom Publications'),
 	('0020', 'Tuesdays with Morrie', 'Sphere'),
-	('0021', 'Morrie in His Own Words', 'Delta')
+	('0021', 'Morrie in His Own Words', 'Delta'),
 	('0022', 'The Fellowship of the Ring', 'Houghton Mifflin'),
 	('0023', 'The Two Towers', 'Houghton Mifflin'),
 	('0024', 'The Return of the King', 'Houghton Mifflin'),
@@ -58,59 +58,24 @@ INSERT INTO tbl_publishers
 		VALUES
 		( 'Picador USA', '175 5th Ave, New York, NY 10010', '800-221-7945'),
 		( 'Del Rey', '1745 Broad1way, New York, NY 10019', '212-782-9000'),
-		( 'Del Rey', '1745 Broad1way, New York, NY 10019', '212-782-9000'),
-		( 'Del Rey', '1745 Broad1way, New York, NY 10019', '212-782-9000'),
 		( 'Saga Press', '230 Avenue of the Americas, New York, NY 10036', '000-000-0000'),
-		( 'Saga Press', '230 Avenue of the Americas, New York, NY 10036', '000-000-0000'),
-		( 'Saga Press', '230 Avenue of the Americas, New York, NY 10036', '000-000-0000'),
-		( 'Fall River Press', '1166 Avenue of the Americas, New York, N, 1036', '212-213-7160'),
-		( 'Fall River Press', '1166 Avenue of the Americas, New York, N, 1036', '212-213-7160'),
 		( 'Fall River Press', '1166 Avenue of the Americas, New York, N, 1036', '212-213-7160'),
 		( 'Bounty Books', '50 Victoria Embankment, London EC4Y0DZ', '+44(0)20-3122-6400'),
 		( 'Barnes and Noble Books', 'PO Box 111, Lyndhurst, NJ 07071', '800-962-6177'),
-		( 'Barnes and Noble Books', 'PO Box 111, Lyndhurst, NJ 07071', '800-962-6177'),
 		( 'Ignatius Press', '1348 10th Ave, San Francisco, CA 94122', '415-387-2324'),
 		('ISI Books', '3901 Centerville Road, Wilmington, DE 19807', '302-652-4600'),
-		( 'Barnes and Noble Books', 'PO Box 111, Lyndhurst, NJ 07071', '800-962-6177'),
 		( 'Pearson Education', '80 Strand, London WC2R 0RL, UK', '+44(0)20-7010-2000'),
 		('Conari Press', '65 Parker Street Suite 7, Newburyport, MA 01950', '978-465-0504'),
 		( 'Wisdom Publications', '199 Elm St, Somerville, MA 02144', '617-776-7416'),
 		( 'Sphere', '50 Victoria Embankment, London, EC4Y0DZ, United Kingdom', '+44(0)20-3122-7000'),
 		( 'Delta', '6213 Factory Road Suite B, Crystal Lake, IL 60014', '800-323-8270'),
 		( 'Houghton Mifflin', '215 Park Avenue South, New York, NY 10003', '888-918-6185'),
-		( 'Houghton Mifflin', '215 Park Avenue South, New York, NY 10003', '888-918-6185'),
-		( 'Houghton Mifflin', '215 Park Avenue South, New York, NY 10003', '888-918-6185'),
-		( 'Houghton Mifflin', '215 Park Avenue South, New York, NY 10003', '888-918-6185'),
-		( 'Del Rey', '1745 Broad1way, New York, NY 10019', '212-782-9000'),
-		( 'Del Rey', '1745 Broad1way, New York, NY 10019', '212-782-9000'),
-		( 'Del Rey', '1745 Broad1way, New York, NY 10019', '212-782-9000'),
-		( 'Del Rey', '1745 Broad1way, New York, NY 10019', '212-782-9000'),
 		( 'Del Rey', '1745 Broad1way, New York, NY 10019', '212-782-9000'),
 		( 'Thomas Nelson', 'PO Box 141000, Nashville, TN 37214', '800-251-4000'),
 		('Ace Books', '375 Hudson Street, New York, NY 10014', '212-366-2385'),
-		( 'Ace Books', '375 Hudson Street, New York, NY 10014', '212-366-2385'),
-		( 'Ace Books', '375 Hudson Street, New York, NY 10014', '212-366-2385'),
-		( 'Ace Books', '375 Hudson Street, New York, NY 10014', '212-366-2385'),
-		( 'Ace Books', '375 Hudson Street, New York, NY 10014', '212-366-2385'),
-		( 'Ace Books', '375 Hudson Street, New York, NY 10014', '212-366-2385'),
-		( 'Ace Books', '375 Hudson Street, New York, NY 10014', '212-366-2385'),
-		( 'Ace Books', '375 Hudson Street, New York, NY 10014', '212-366-2385'),
-		( 'Bounty Books', '50 Victoria Embankment, London EC4Y0DZ', '+44(0)20-3122-6400'),
-		( 'Barnes and Noble Books', 'PO Box 111, Lyndhurst, NJ 07071', '800-962-6177'),
-		( 'Barnes and Noble Books', 'PO Box 111, Lyndhurst, NJ 07071', '800-962-6177'),
-		('Barnes and Noble Books', 'PO Box 111, Lyndhurst, NJ 07071', '800-962-6177'),
-		( 'Barnes and Noble Books', 'PO Box 111, Lyndhurst, NJ 07071', '800-962-6177'),
-		( 'Barnes and Noble Books', 'PO Box 111, Lyndhurst, NJ 07071', '800-962-6177'),
-		( 'Barnes and Noble Books', 'PO Box 111, Lyndhurst, NJ 07071', '800-962-6177'),
-		( 'Barnes and Noble Books', 'PO Box 111, Lyndhurst, NJ 07071', '800-962-6177'),
-		( 'Barnes and Noble Books', 'PO Box 111, Lyndhurst, NJ 07071', '800-962-6177'),
 		( 'Harper Collins', '195 Broadway, New York, NY 10007', '212-207-7000'),
 		( 'Pocket Books', '1230 Avenue of the Americas, New York, NY 10020', '212-698-7000')
 		; 
-	USE [db.libraryms1]	
-
-		ALTER TABLE tbl_publishers
-		ADD PRIMARY KEY (Name);/*this part isn't working*/
 		
 INSERT INTO tbl_book_authors
    (Bookid, AuthorName)
