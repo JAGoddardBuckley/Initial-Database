@@ -70,7 +70,6 @@ INSERT INTO tbl_publishers
 		( 'Sphere', '50 Victoria Embankment, London, EC4Y0DZ, United Kingdom', '+44(0)20-3122-7000'),
 		( 'Delta', '6213 Factory Road Suite B, Crystal Lake, IL 60014', '800-323-8270'),
 		( 'Houghton Mifflin', '215 Park Avenue South, New York, NY 10003', '888-918-6185'),
-		( 'Del Rey', '1745 Broad1way, New York, NY 10019', '212-782-9000'),
 		( 'Thomas Nelson', 'PO Box 141000, Nashville, TN 37214', '800-251-4000'),
 		('Ace Books', '375 Hudson Street, New York, NY 10014', '212-366-2385'),
 		( 'Harper Collins', '195 Broadway, New York, NY 10007', '212-207-7000'),
