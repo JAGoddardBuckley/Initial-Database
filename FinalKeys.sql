@@ -11,8 +11,6 @@ ALTER TABLE tbl_borrowers
 	ADD PRIMARY KEY (CardNo);
 
 
-ALTER TABLE tbl_book
-ADD FOREIGN KEY (PublisherName) REFERENCES tbl_publishers(Name);
 
 
 ALTER TABLE tbl_book_loans
@@ -32,3 +30,6 @@ ADD FOREIGN KEY (Branchid) REFERENCES tbl_library_branch(Branchid);
 
 ALTER TABLE tbl_book_authors
 ADD FOREIGN KEY (Bookid) REFERENCES tbl_book(Bookid);
+
+ALTER TABLE tbl_book
+ADD FOREIGN KEY (PublisherName) REFERENCES tbl_publishers(Name);
