@@ -254,7 +254,7 @@ INSERT INTO tbl_borrowers
 	('0987654327', 'Maggie Walter', '78 Marywood Ave, Jonestown', '567-3456'),
 	('0987654328','Hans Anderson', '345 Jolly Lane, Howdyville', '234-5678'),
 	('0987654329','Paul Grant', '89 Happy Pl, Valley', '456-6789'),
-	('0987654330', 'Jewel St. James', '23 Christmas Ln, Valley', '456-3466')
+	('0987654330', 'Jewel St. James', '23 Christmas Ln, Valley', '456-3466'),
 	('0987654331', 'Brody Johnson', '45 West River Rd, Valley', '456-1729')
 	;
 
