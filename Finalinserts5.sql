@@ -1,7 +1,7 @@
 INSERT INTO tbl_book 
 	(Bookid, Title, PublisherName)
 	VALUES
-	('0001', 'The Lost Tribe', 'Picador USA'),
+	('0001', 'Redwall', 'Ace Books'),
 	('0002', 'The Dragonriders of Pern: Dragonflight', 'Del Rey'),
 	('0003', 'The Dragonriders of Pern: Dragonquest', 'Del Rey'),
 	('0004', 'The Dragonriders of Pern: The White Dragon', 'Del Rey'),
@@ -32,7 +32,7 @@ INSERT INTO tbl_book
 	('0029', 'The Lost Road and Other Writings', 'Del Rey'),
 	('0030', 'The Lays of Beleriand', 'Del Rey'),
 	('0031', 'A Hobbit A Wardrobe And A Great War', 'Thomas Nelson'),
-	('0032', 'Redwall', 'Ace Books'),
+	('0032', 'The Lost Tribe', 'Picador USA'),
 	('0033', 'Pearls of Lutra', 'Ace Books'),
 	('0034', 'The Bellmaker', 'Ace Books'),
 	('0035', 'The Legend of Luke', 'Ace Books'),
