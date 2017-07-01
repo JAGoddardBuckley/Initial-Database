@@ -79,6 +79,27 @@ INSERT INTO tbl_publishers
 INSERT INTO tbl_book_authors
    (Bookid, AuthorName)
    VALUES
+     ('0001', 'Brian Jacques'),
+   ('0002', 'Anne McCaffrey'),
+   ('0003', 'Anne McCaffrey'),
+   ('0004', 'Anne McCaffrey'),
+   ('0005', 'Anne Mcaffrey'),
+   ('0006', 'Anne McCaffrey'),
+	('0007', 'Anne McCaffrey'),
+	('0008', 'Compilation'),
+	('0009', 'Compilation'),
+	('0010', 'Charles Dickens'),
+	('0011', 'Charlotte Bronte'),
+	('0012', 'Sir Arthur Conan Doyle'),
+	('0013', 'Kenneth Grahame'),
+	('0014', 'G. K. Chesterton'),
+	('0015', 'Bradley J. Birzer'),
+	('0016', 'Elizabeth & Robert Browning'),
+	('0017', 'James C. Livingston'),
+	('0018', 'Henry Fersko-Weiss'),
+	('0019', 'edited by Ellison and Weingast'),
+	('0020', 'Mitch Albom'),
+	('0021', 'Morrie Schwartz'),
    ('0022', 'J. R. R. Tolkien'),
    ('0023', 'J. R. R. Tolkien'),
    ('0024', 'J. R. R. Tolkien'),
@@ -89,7 +110,7 @@ INSERT INTO tbl_book_authors
    ('0029', 'J. R. R. Tolkien'),
    ('0030', 'J. R. R. Tolkien'),
    ('0031', 'Joseph Loconte'),
-   ('0032', 'Brian Jacques'),
+   ('0032', 'Mark Lee'),
    ('0033', 'Brian Jacques'),
    ('0034', 'Brian Jacques'),
    ('0035', 'Brian Jacques'),
@@ -113,7 +134,7 @@ INSERT INTO tbl_book_authors
    INSERT INTO tbl_book_loans
 	(Bookid, Branchid, CardNo, DateOut, DueDate)
 	VALUES
-	('0001', '1', '0987654321', '6-1-17', '6-29-17'),
+	('0032', '1', '0987654321', '6-1-17', '6-29-17'),
 	('0002', '1', '0987654321', '6-1-17', '6-30-17'),
 	('0003', '1', '0987654321', '6-1-17', '7-1-17'),
 	('0004', '1', '0987654321', '6-1-17', '7-2-17'),
@@ -134,7 +155,7 @@ INSERT INTO tbl_book_authors
 	('0019', '4', '0987654324', '6-4-17', '7-4-17'),
 	('0020', '4', '0987654324', '6-4-17', '7-4-17'),
 	('0021', '5', '0987654325', '6-5-17', '7-5-17'),
-	('0001', '1', '0987654325', '6-6-17', '7-6-17'),
+	('0032', '1', '0987654325', '6-6-17', '7-6-17'),
 	('0002', '1', '0987654325','6-6-17', '7-6-17'),
 	('0003', '1', '0987654325','6-6-17', '7-6-17'),
 	('0004', '1', '0987654325','6-6-17', '7-6-17'),
@@ -155,7 +176,7 @@ INSERT INTO tbl_book_authors
 	('0019', '4', '0987654328', '6-9-17', '7-9-17'),
 	('0020', '4', '0987654329', '6-10-17', '7-10-17'),
 	('0021', '5', '0987654329', '6-10-17', '7-10-17'),
-	('0001', '1', '0987654329', '6-10-17', '7-10-17'),
+	('0032', '1', '0987654329', '6-10-17', '7-10-17'),
 	('0002', '1', '0987654329', '6-10-17', '7-10-17'),
 	('0003', '1', '0987654329', '6-10-17', '7-10-17'),
 	('0004', '1', '0987654330','6-11-17', '7-11-17'),
@@ -199,7 +220,7 @@ INSERT INTO tbl_book_authors
 	('0029', '5', '2'),
 	('0030', '5', '2'),
 	('0031', '1', '2'),
-	('0032', '1', '2'),
+	('0032', '1', '3'),
 	('0033', '1', '2'),
 	('0034', '1', '2'),
 	('0035', '1', '2'),
@@ -234,6 +255,7 @@ INSERT INTO tbl_borrowers
 	('0987654328','Hans Anderson', '345 Jolly Lane, Howdyville', '234-5678'),
 	('0987654329','Paul Grant', '89 Happy Pl, Valley', '456-6789'),
 	('0987654330', 'Jewel St. James', '23 Christmas Ln, Valley', '456-3466')
+	('0987654331', 'Brody Johnson', '45 West River Rd, Valley', '456-1729')
 	;
 
 	INSERT INTO tbl_library_branch
